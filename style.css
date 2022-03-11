@@ -457,6 +457,9 @@ footer a {
     .messageInfo {
         width: 95%;
     }
+    footer {
+        width: 100%;
+    }
     .footLogo {
         display: none;
     }
@@ -474,6 +477,9 @@ footer a {
     .projects h2 {
         padding-bottom: 5%;
         padding-top: 2%;
+    }
+    .projectName {
+        padding-bottom: 2%;
     }
     header {
         background-position: bottom;
