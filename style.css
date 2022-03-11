@@ -448,26 +448,48 @@ footer a {
 }
 
 @media (max-width: 599px) {
+    .contact h2 {
+        padding-bottom: 5%;
+    }
     .nameContainer {
         width: 95%;
+        flex-direction: column;
+    }
+    .nameContainer input {
+        width: 100%;
+        margin-bottom: 2%;
     }
     .contactInfo {
         width: 95%;
+        flex-direction: column;
+    }
+    .contactInfo input {
+        width: 100%;
+        margin-bottom: 2%;
     }
     .messageInfo {
+        flex-direction: column;
         width: 95%;
+    }
+    .messageInfo input {
+        margin-top: 2%;
+        width: 100%;
     }
     footer {
         width: 100%;
+        margin: 0;
     }
     .footLogo {
         display: none;
     }
     .social {
         width: 100%;
-    }
+        }
     .socialContainer {
+        display: flex;
         justify-content: center;
+        flex-direction: column;
+        width: 100%;
     }
     .aboutImg {
         width: 80%;
