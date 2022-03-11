@@ -359,11 +359,9 @@ footer a {
 }
 
 
-
-
 /*Desktop View */
 
-@media (min-width: 1455px) {
+@media (min-width: 1280px) {
     .aboutImg {
         width: 40%;
     }
