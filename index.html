@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sites by Nick</title>
+</head>
+<body>
+    <a id="home">
+    <header>
+        <img src="img/Sites by Nick-logo/vector/default-monochrome-black.svg">
+        <h1 class="title">Hi, I'm Nick, a fullstack web developer </h1>
+    </header>
+    <section class="about"> 
+        <section class="aboutText">
+            <h2 class="sectionTitle">About Me</h2>
+            <p class="sectionText"> I'm a fullstack web developer with a business background. I graduated from the University of Guelph-Humber with honours in Business Administration and since then have continued to grow my skill set. Solving business problems is something that I've always had a passion for and now with web development I'm able to do so in new ways.</p>
+             <p class="sectionText"> My skills include HTML, CSS and Javascript and I have exeperience with CMS platforms such as Wordpress and Shopify and have worked on projects for small businesses as well as larger corporations. 
+            </p>
+            <button class="resume">
+                Download my resume
+            </button>
+        </section>
+            
+        <section class="aboutImg">
+            <img class="aboutPic" src="/img/headshot1.png">
+        </section>
+    </section> 
+    <section class="projects">
+        <h2 class="sectionTitle">My Projects</h2>
+        <div class="projectCols">
+            <section class="col">
+                <h3 class="projectName"> Beauty or Beast Makeup </h3>
+                <div class="colImgContainer">
+                    <a href="https://beautyorbeastmakeup.netlify.app/" target="_blank"> <img class="colimg" src="/img/bbmakeup.jpg"></a>
+                </div>
+                <p class="projectText">
+                    I designed the site from scratch using technologies such as HTML, CSS & Javascript. The site is fully responsive with support for multiple viewport sizes and a hamburger menu for mobile devices. 
+                </p>
+            </section>
+
+            <section class="col">
+                <h3 class="projectName">The Brake Store </h3>
+                <div class="colImgContainer">
+                    <a href="https://thebrakestore.ca/" target="_blank"> <img class="colimg" src="/img/brakestore.png"></a>
+                </div>
+                <p class="projectText">
+                    This site was designed for a client using Shopify along with some custom HTML & CSS. The site currently has over 20,000 skus, features a make/model/year lookup for parts and is fully responsive.  
+                </p>
+            </section>
+
+            <section class="col">
+                <h3 class="projectName">Salon Layout Page </h3>
+                <div class="colImgContainer">
+                    <a href="https://salon-project.netlify.app/" target="_blank"> <img class="colimg" src="/img/salong.jpg"></a>
+                </div>
+                <p class="projectText">
+                    This template was created using HTML & CSS. It is fully responsive and was made using floats as opposed to modern solutions like flexbox or CSS grid. 
+                </p>
+            </section>
+
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="sectionTitle">Contact Me</h2>
+        <form class="formContainer" netlify>
+
+            <div class="nameContainer">
+                <input type="text" name="fName" id="fName" placeholder="First Name">
+
+                <input type="text" name="lName" id="lName" placeholder="Last Name">
+            
+            </div>
+            <div class="contactInfo">
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            
+            <div class="messageInfo"> 
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+
+                <textarea class="messageBox" rows="7" cols="50" id="textarea" name="message" placeholder="Enter your message:"></textarea>
+            </div>
+            <button class="submit">Send Message</button>
+
+        </form>
+    </section>
+
+    <footer> 
+        <section class="footLogo">
+            <a href="#home"><img class="logoWhite" src="/img/Sites by Nick-logo/vector/default-monochrome-white.svg"></a>
+        </section>
+        <section class="social">
+            <ul class="socialContainer">
+                <li><a href="https://github.com/nnes13" target="_blank"><img class="icon" src="/img/icons/githubw.png"><span class="socialName">GitHub</span></a></li>
+                <li><a href="https://twitter.com/nick_nesci" target="_blank"><img class="icon" src="/img/icons/twitterw.png"><span class="socialName">Twitter</span></a></li>
+                <li><a href="mailto:nicholasnesci@gmail.com"><img class="icon" src="/img/icons/emailw.png"><span class="socialName">Email</span></a></li>
+            </ul>
+        </section>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: unb_pro_black
+font link: http://www.marca.unb.br/fontesunb.php
+font author: Universidade de Brasilia
+font author site: http://www.marca.unb.br/introducao.php
+Slogan Font: Aleo-Light.otf
+
+icon designer: Dara Ullrich
+icon designer link: /Dara Ullrich
+        
+{"bg":"#DEE5F3","icon-gradient-0":"#288B58","icon-gradient-1":"#1522F1","font":"#0C203C","slogan":"#203450"}
+      

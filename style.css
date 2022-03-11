@@ -1,0 +1,488 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+/*STYLING STARTS HERE*/
+
+/*
+======================
+header section
+======================
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5%;
+    margin-bottom: 1%;
+    background-image: url(/img/headercropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 85%;
+    Padding: 15% 0 0 5%;
+
+}
+
+header img {
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+/*
+======================
+About Section 
+======================
+*/
+
+.about {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    background: #2C5788;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.aboutText {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Barlow', sans-serif;
+    width: 70%;
+
+}
+
+.sectionTitle {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.sectionText {
+    padding: 0 10% 2% 10%;
+    line-height: 1.5em;
+    font-size: 1.7em;
+}
+
+.aboutPic {
+    width: 100%;
+    border-radius: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.aboutImg {
+    justify-content: center;
+    width: 30%;
+    display: flex;
+    
+}
+
+.resume {
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: white;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    
+}
+
+/*
+==================
+Projects
+==================
+*/
+
+.projectTitle {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+}
+
+.projectName {
+    font-size: 2em;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.projectCols {
+    display: flex;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.col {
+    width: 33.3333%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.colimg {
+    width: 400px;
+    height: 300px;
+    padding: 2%;
+
+}
+
+.colImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colimg:hover {
+    opacity: 0.5;
+}
+
+.projectText {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+
+/*
+=====================
+Contact Form
+=====================
+*/
+
+.contact {
+    margin-top: 1%;
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    background: #6DA8F8;
+    color: white;
+    font-size: 1.2em;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-bottom: 1%;
+    width: 60%;
+}
+
+.nameContainer input {
+    width: 50%;
+    padding: 1%;
+    font-size: 1em;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    width: 60%;
+    padding-bottom: 1%;
+}
+
+.contactInfo input {
+    width: 50%;
+    padding: 1%;
+    font-size: 1em;
+}
+
+.messageInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3%;
+    width: 60%;
+}
+
+.messageInfo input {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+    font-size: 1em;
+}
+
+.messageBox {
+    font-size: 1em;
+
+}
+
+.submit {
+    padding: 5px;
+    margin-top: 1%;
+    background: white;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+}
+
+/*
+=====================
+Footer 
+=====================
+*/
+
+footer {
+    background: #2C5788;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footLogo {
+    width: 50%;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.logoWhite {
+    width: 35%;    
+}
+
+.social {
+    width: 50%;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:end ;
+    align-items: center;
+    gap: 3%;
+    padding-right: 5%;
+    height: 100%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100;
+}
+
+.socialContainer a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 60px;
+}
+
+.socialTitle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+
+/*Desktop View */
+
+@media (min-width: 1455px) {
+    .aboutImg {
+        width: 40%;
+    }
+    .aboutText {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1279px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutImg {
+        width: 40%;        
+    }
+    .aboutText {
+        width: 100%;
+    }
+    .nameContainer {
+        width: 70%;
+    }
+    .contactInfo {
+        width: 70%;
+    }
+    .messageInfo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .projectCols {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .col {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projectText {
+        padding-bottom: 2%;
+        width: 75%;
+    }
+    .colImgContainer {
+        width: 100%;
+    }
+    .colimg {
+        width: 75%;
+        height: 50%;
+    }
+
+
+}
+
+@media (min-width: 600px) and (max-width: 1149px) {
+    .nameContainer {
+        width: 80%;
+    }
+    .contactInfo {
+        width: 80%;
+    }
+    .messageInfo {
+        width: 80%;
+    }
+    .footLogo {
+        display: none;
+    }
+    .social {
+        width: 100%;
+    }
+    .socialContainer {
+        justify-content: center;
+    }
+    header img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 599px) {
+    .nameContainer {
+        width: 95%;
+    }
+    .contactInfo {
+        width: 95%;
+    }
+    .messageInfo {
+        width: 95%;
+    }
+    .footLogo {
+        display: none;
+    }
+    .social {
+        width: 100%;
+    }
+    .socialContainer {
+        justify-content: center;
+    }
+    .aboutImg {
+        width: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .projects h2 {
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+    header {
+        background-position: bottom;
+        height: 50%;
+    }
+    header img {
+        width: 80%;
+    }
+    .submit {
+        margin-top: 2%;
+    }
+}
